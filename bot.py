@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # ============================================================
 # 1. ТОКЕН ИЗ ПЕРЕМЕННОЙ ОКРУЖЕНИЯ (Railway / VPS)
 # ============================================================
-BOT_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+BOT_TOKEN = os.environ.get("8913233895:AAEcZGQaMuTarRiv6OyO2gUWEwCoMDwSTU0")
 if not BOT_TOKEN:
     raise ValueError("❌ TELEGRAM_TOKEN не задан! Добавь переменную в Railway.")
 
